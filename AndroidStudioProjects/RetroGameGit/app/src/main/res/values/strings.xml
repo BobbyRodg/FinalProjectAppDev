@@ -1,0 +1,81 @@
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Retro Game Haven</string>
+    <string name="game_name_1">Castlevania</string>
+    <string name="game_name_2">Mortal Kombat</string>
+    <string name="game_name_3">Sonic the Hedgehog</string>
+    <string name="game_name_4">Chase HQ</string>
+    <string name="game_name_5">Demon Sword</string>
+    <string name="game_name_6">Doom</string>
+    <string name="game_name_7">Double Dragon 2</string>
+    <string name="game_name_8">ExciteBike</string>
+    <string name="game_name_9">General Chaos</string>
+    <string name="game_name_10">Ghouls n Ghosts</string>
+    <string name="game_name_11">Joust</string>
+    <string name="game_name_12">Renegade 3</string>
+    <string name="game_name_13">Slot Racers</string>
+    <string name="game_name_14">The Legend of Zelda</string>
+    <string name="game_name_15">Tron</string>
+    <string name="game_name_16">Wild Gunman</string>
+    <string name="game_name_17">X-Men</string>
+    <string name="game_name_18">Yars Revenge</string>
+
+    <string name="game_description_1">Eating treats on the terrace</string>
+    <string name="game_description_2">Barking at Daddy</string>
+    <string name="game_description_3">Stealing socks</string>
+    <string name="game_description_4">A side-scrolling beat em up game where players fight their way through waves of enemies to rescue a kidnapped loved one.</string>
+    <string name="game_description_5">A motocross racing game where players navigate through challenging tracks and obstacles while performing stunts.</string>
+    <string name="game_description_6">A real-time strategy game featuring squad-based combat and humorous animations as players lead their troops to victory.</string>
+    <string name="game_description_7">A platformer game known for its challenging difficulty and haunting atmosphere as players control a knight on a quest to save his beloved.</string>
+    <string name="game_description_8">A classic arcade racing game where players take on the role of a police officer in pursuit of criminals.</string>
+    <string name="game_description_9">An action-adventure game featuring side-scrolling gameplay and challenging enemies as players embark on a quest to defeat an evil demon.</string>
+    <string name="game_description_10">A groundbreaking first-person shooter known for its fast-paced action, intense atmosphere, and revolutionary graphics.</string>
+    <string name="game_description_11">A side-scrolling beat em up game where players fight their way through waves of enemies to rescue a kidnapped loved one.</string>
+    <string name="game_description_12">A motocross racing game where players navigate through challenging tracks and obstacles while performing stunts.</string>
+    <string name="game_description_13">A real-time strategy game featuring squad-based combat and humorous animations as players lead their troops to victory.</string>
+    <string name="game_description_14">A platformer game known for its challenging difficulty and haunting atmosphere as players control a knight on a quest to save his beloved.</string>
+    <string name="game_description_15">An arcade classic where players ride flying ostriches and engage in jousting combat against enemy knights in a surreal world.</string>
+    <string name="game_description_16">A beat em up game featuring street brawling action and a gripping storyline as players fight against rival gangs to restore peace to the city.</string>
+    <string name="game_description_17">A simple top-down racing game where players compete against each other in slot car races on customizable tracks.</string>
+    <string name="game_description_18">An iconic action-adventure game that set the standard for open-world exploration and puzzle-solving in video games.</string>
+    <string name="game_description_19">An arcade game inspired by the movie Tron where players compete in various futuristic minigames set in the digital world.</string>
+    <string name="game_description_20">A light gun shooter game set in the Wild West where players must outdraw and defeat bandits in quick-draw duels.</string>
+    <string name="game_description_21">A side-scrolling beat em up game featuring popular X-Men characters battling against the forces of evil in various locations.</string>
+    <string name="game_description_22">An Atari classic where players control an insect-like creature seeking revenge against the evil Qotile in a fast-paced shooter game.</string>
+
+
+    <string name="nes">Nintendo Entertainment System (NES)</string>
+    <string name="snes">Super Nintendo Entertainment System (SNES)</string>
+    <string name="genesis">Sega Genesis</string>
+    <string name="pc">Personal Computer</string>
+    <string name="atari">Atari Game System</string>
+    <string name="arcade">Arcade System</string>
+
+    <string name="about">About:</string>
+    <string name="release_year">Release Year: %d</string>
+    <string name="condition">Condition: %s</string>
+    <string name="expand_button_content_description">See more or less information about a game.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
