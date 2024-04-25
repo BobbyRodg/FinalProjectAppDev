@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Payment2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6D4491">
+
+    <TextView
+        android:id="@+id/textChooseYourPlan"
+        android:layout_width="410dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/choose_your_plan"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FBFAFA"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBasicPlan"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/basic_plan"
+        android:textColor="#FBFAFA"
+        android:textColorHighlight="#C85252"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textChooseYourPlan" />
+
+    <TextView
+        android:id="@+id/textLiveGroupBiWeekly"
+        android:layout_width="400dp"
+        android:layout_height="38dp"
+        android:text="@string/live_group_video_session_bi_weekly_all_clients_are_encouraged_to_attend"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBasicPlanPlus" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPlusPlan"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/plus_plan"
+        android:textColor="#FBFAFA"
+        android:textColorHighlight="#C85252"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTheraAss" />
+
+    <TextView
+        android:id="@+id/text60Days"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/_60_day_program"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPlusPlan" />
+
+    <TextView
+        android:id="@+id/textAfterCare"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:text="@string/_6_month_aftercare_program_bi_weekly_session"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLiveGroupBiWeekly" />
+
+    <TextView
+        android:id="@+id/textBasicPlanPlus"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:text="@string/basic_plan_plus"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text60Days" />
+
+    <TextView
+        android:id="@+id/textLiveGroupWeekly"
+        android:layout_width="400dp"
+        android:layout_height="37dp"
+        android:text="@string/live_group_video_session_weekly_all_clients_are_encouraged_to_attend"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBasicPlanPlusPrem" />
+
+    <TextView
+        android:id="@+id/textBasicPlanPlusPrem"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/basic_plan_plus"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPremium" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPremium"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/premium"
+        android:textColor="#FBFAFA"
+        android:textColorHighlight="#C85252"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAfterCare" />
+
+    <TextView
+        android:id="@+id/textYearAftercare"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:text="@string/year_aftercare"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLiveGroupWeekly" />
+
+    <TextView
+        android:id="@+id/textTwoOnOne"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:text="@string/two_on_one"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTwoThera" />
+
+    <TextView
+        android:id="@+id/textTwoThera"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/two_therapeutic_materials_per_day"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxBasicPlan" />
+
+    <TextView
+        android:id="@+id/textTheraAss"
+        android:layout_width="400dp"
+        android:layout_height="26dp"
+        android:text="@string/therapeutic_assignments_1_2_hours_weekly"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTwoOnOne" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="194dp"
+        android:layout_height="48dp"
+        android:text="@string/continue_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textYearAftercare"
+        app:layout_constraintVertical_bias="0.095" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
